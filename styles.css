@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #92400E;
+    --secondary: #FEF3C7;
+    --black: #333333;
+    --width-break:600px
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFBEB;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: .5rem 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFBEB;
+    font-size: large;
+    border-radius: 1rem;
+}
+
+button:hover{
+    background-color: var(--secondary);
+    color: black;
+}
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+    margin-top: 1rem;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+.text-message {
+    background-color: var(--primary);
+    margin-right: 40vh;
+    border-radius: .5rem;
+}
